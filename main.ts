@@ -58,7 +58,7 @@ input.onButtonPressed(Button.B, function () {
 })
 input.onGesture(Gesture.Shake, function () {
     basic.clearScreen()
-    basic.pause(200)
+    basic.pause(500)
     hozenoCislo = randint(1, 6)
     if (0 == typKostky) {
         basic.showNumber(hozenoCislo)
